@@ -12,7 +12,7 @@ This script may put your account at risk for temporary (or possibly permanent) t
 - Required Python libraries: `requests`, `json`, `threading`, `colorama`, `urllib3`
 - The following text files with each entry on a new line:
   - `tokens.txt`: A list of your Discord token(s).
-  - `words.txt`: A list of words to be sent to the endpoint.
+  - `words.txt`: A list of usernames to be claimed.
   - `proxies.txt`: A list of proxies to use for requests.
 
 ## Usage
