@@ -16,7 +16,6 @@ class PomeloSender:
         self.proxylist = []
 
         print(f"{Fore.YELLOW}⏰ Warning: This will put your account at risk for temporary (or possibly permanent) terminations. Use an alt to stay safe.")
-        print(f"{Fore.BLUE}Created by Jam (jaa.am)")
 
         with open('tokens.txt', 'r') as f:
             self.tokenlist = [line.strip() for line in f.readlines()]
